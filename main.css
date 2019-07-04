@@ -3,7 +3,7 @@ body {
 	text-align: center;
 }
 
-p {
+.one {
 	font-size: 60px;
 	background-color: brown;
 	color: orange;
@@ -11,19 +11,65 @@ p {
 	padding: 15px 30px;
 }
 
-.test {
+.btn-one:hover {
+  background: silver;
+  color: white;
+}
+
+.two {
   background-color: orange;
   text-transform: uppercase;
   padding: 15px 30px;
   font-size: 60px;
   color: brown;
 }
-.btn {
-  padding: 10px 20px;
-  font-size: 18px; 
+
+.btn-two {
+  padding: 5px 10px;
   border-radius: 4px;
 }
 
-.btn:hover {
+.btn-two:hover {
   background: silver;
+  color: white;
 }
+
+.three {
+  background-color: black;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-size: 60px;
+  color:  orange;
+}
+
+.btn-three {
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+btn-three:hover {
+  background-color: silver;
+  color: white;
+}
+
+.four {
+  background-color: white;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-size: 60px;
+  color:  orange;
+}
+
+.btn-four {
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.btn-four:hover {
+  background-color: silver;
+  color: white;
+}
+
+
+
+
