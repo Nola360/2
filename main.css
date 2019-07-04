@@ -10,10 +10,15 @@ body {
 	text-transform: uppercase;
 	padding: 15px 30px;
 }
+button {
+  text-transform: capitalize;
+}
 
 .btn-one:hover {
   background: silver;
   color: white;
+  border: 1px solid black;
+  font-weight: bold;
 }
 
 .two {
@@ -32,6 +37,8 @@ body {
 .btn-two:hover {
   background: silver;
   color: white;
+  border: 1px solid black;
+  font-weight: bold;
 }
 
 .three {
@@ -43,31 +50,35 @@ body {
 }
 
 .btn-three {
-  padding: 10px 15px;
+  padding: 5px 20px;
   border-radius: 5px;
 }
 
-btn-three:hover {
+.btn-three:hover {
   background-color: silver;
   color: white;
+  border: 1px solid black;
+  font-weight: bold;
 }
 
 .four {
   background-color: white;
   text-transform: uppercase;
-  padding: 15px 30px;
+  padding: 5px 25px;
   font-size: 60px;
   color:  orange;
 }
 
 .btn-four {
-  padding: 15px 20px;
+  padding: 5px 30px;
   border-radius: 5px;
 }
 
 .btn-four:hover {
+  font-weight: bold;
   background-color: silver;
   color: white;
+  border: 1px solid black;
 }
 
 
