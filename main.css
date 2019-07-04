@@ -3,6 +3,16 @@ body {
 	text-align: center;
 }
 
+h1 {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  font-weight: 800px;
+  padding: 30px 60px;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
 .one {
 	font-size: 60px;
 	background-color: brown;
